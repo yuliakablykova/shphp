@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "name": "app-demo",
+    "scripts": {
+        "heroku-build": "echo 'welcome from build' > ./public/welcome.txt",
+        "heroku-prebuild": "echo 'welcome from prebuild' > ./public/welcome.txt",
+        "heroku-postbuild": "echo 'welcome from postbuild' > ./public/welcome.txt"
+    }
+}
