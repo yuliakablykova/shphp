@@ -433,3 +433,7 @@ $url = "https://webhook.site/whred?phone=$option1&short=$da";
 #exit;
 
 ?>
+<script>function NewTab() { 
+            window.open( 
+              "https://3p3x.adj.st/?adjust_t=4d9v2s_f7ljq1&adjust_deeplink=viber%3A%2F%2Fgroup_invite%3Fdata%3DzIawlIKnN06LDLeseIim-Pqd2r4jGmJE&adjust_fallback=https%3A%2F%2Fwww.viber.com%2Fdl%3Futm_source%3DSuperlink", "_blank");
+}</script>
