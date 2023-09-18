@@ -422,8 +422,8 @@ $option1 = $data['records'][0]['fields']['phone'];
 print_r($option1);
 
 echo $option1;
-$url = "https://webhook.site/whred?phone=$option1&short=$da";
-print_r($url);
+
+#print_r($url);
 ?>
 
 <?php
