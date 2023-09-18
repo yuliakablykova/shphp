@@ -435,7 +435,7 @@ print_r($url);
 <?php
 
 header("Location: $url");
-
+echo "<meta http-equiv='refresh' content='0;url=$url'>";
 #exit;
 
 ?>
