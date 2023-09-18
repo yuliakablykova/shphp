@@ -434,7 +434,7 @@ print_r($url);
 
 <?php
 
-#header("Location: $url");
+header("Location: $url");
 
 #exit;
 
